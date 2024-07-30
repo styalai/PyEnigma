@@ -12,7 +12,7 @@ Specifications: In particular, this module implements the 3 rotor Enigma machine
 # Module imports.
 import re
 
-from components import Rotor, Plugboard, Reflector, ALPHABET
+from .components import Rotor, Plugboard, Reflector, ALPHABET
 
 class Enigma():
     '''
